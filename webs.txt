@@ -1,3 +1,5 @@
-*temu.com
-*aliexpress.us
-*us.shein.com
+# Format is: [website_pattern]:[Custom Warning Message]
+
+*temu.com:Forced scarcity, misleading discounts, and manipulative countdown timers.
+*aliexpress.us:Aggressive cross-selling and difficulty in finding customer service contact.
+*shein.com:Hard-to-find opt-outs for email lists and confusing pricing tiers.
