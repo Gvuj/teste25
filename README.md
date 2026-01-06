@@ -4,4 +4,5 @@
 
 so like we using a multimodal approach cus its like an all in one and combines visual and textual features to classify things and uhh thats about it. hope all goes well byebye.
 
-<img width="277" height="328" alt="extension showcase" src="https://github.com/user-attachments/assets/e51cb20e-ddc3-442d-beed-efad069ca7f3" /> <img width="1024" height="1024" alt="simple eyeball gpt" src="https://github.com/user-attachments/assets/27a3b53e-07b7-45bc-8715-f168d5167607" />
+<img width="277" height="328" alt="extension showcase" src="https://github.com/user-attachments/assets/e51cb20e-ddc3-442d-beed-efad069ca7f3" />
+<img width="1024" height="1024" alt="simple eyeball gpt" src="https://github.com/user-attachments/assets/27a3b53e-07b7-45bc-8715-f168d5167607" />
