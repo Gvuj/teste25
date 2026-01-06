@@ -1,0 +1,103 @@
+/*--------------------------- ELEMENTS ---------------------------------*/
+
+body {
+    min-width: 250px;
+    min-height: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+    overflow: hidden;
+}
+
+div {
+    min-height: 145px;
+    max-height: 145px;
+}
+
+h1 {
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin: 12px;
+    font-size: 16px;
+    text-align: center;
+    animation-duration: 0.75s;
+    animation-name: fade-in;
+}
+
+/*--------------------------- IMAGE ---------------------------------*/
+
+img {
+    justify-content: center;
+    width: 145px;
+    height: 145px;
+    margin: 5;
+    margin: 0 auto;
+    display: block;
+    align-self: center;
+    animation-duration: 1.25s;
+    animation-name: rotate-zoom;
+}
+
+img:hover {
+    scale: 1.05;
+    transform: translateY(-1px);
+}
+
+img:active {
+    scale: 1.03;
+    transform: translateY(1px);
+}
+
+/*--------------------------- BUTTONS ---------------------------------*/
+
+button {
+    margin-top: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    font-family: monospace, "Lucida Console", "Courier New";
+}
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+button:active {
+    opacity: 1;
+    transform: translateY(1px);
+}
+
+/*---------------------------  ANIMATIONS ---------------------------------*/
+
+@keyframes rotate-zoom {
+    from {
+        transform: rotate(0deg);
+        scale: 0.1;
+    }
+    to {
+        transform: rotate(360deg);
+        scale: 1;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
